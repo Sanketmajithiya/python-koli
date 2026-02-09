@@ -74,20 +74,3 @@ gf= "sunny"
 print("hello {0} your salary is {1} and frind is {2}".format(name,salary,gf))
 print("hello {x} your salary is {y} and frind is {z}".format(x=name,y=salary,z=gf))
 #-----------------#--------------#-------------#------------
-
-"""
-Good Morning Mahesh sir and Ajay sir
-Date: 4/12/2024
-
-1.Driver/Connector Information:
- - Continued learning and working with drivers/connectors for database interactions.
-2.Working with Mysql database
- - Practiced using MySQL Workbench with the following commands:practice all commonds:- "INSERT INTO" statement.,
-   INSERT INTO statement
-   SELECT, WHERE, ORDER BY
-   DELETE, DROP TABLE, UPDATE, LIMIT
-   JOIN operations
-3. Python with MySQL (pymysql):
- - Focused on practical tasks integrating Python with MySQL using the pymysql library.
-
-"""
