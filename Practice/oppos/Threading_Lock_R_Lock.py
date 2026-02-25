@@ -9,6 +9,16 @@ Synchronization means at a time only one Thread (Ek time pe ek hi thread ko lega
 The main application areas of synchronization are
 1. Online Reservation system
 2. Funds Transfer from joint accounts
+Ex:- Socho 2 log ek hi bank account se paise nikal rahe hain.
+Agar synchronization na ho: Dono ek hi time balance check karenge Dono paise nikal lenge
+Final balance galat ho sakta hai ❌
+Is problem ko Race Condition kehte hain.
+Synchronization ke liye hum use karte hain:
+🔒 Lock:- 1 ko allow karega at time
+🔁 Semaphore:- Ye allow karta hai ki ek se zyada log ek saath aa sakte hain — lekin limited number me.
+🧱 Mutex:- 1 ko allow karega at time
+📦 Monitor:- Smart system jo sab control kare
+Ab ek time par sirf ek thread hi code execute karega ✅ 
 etc
 """
 
