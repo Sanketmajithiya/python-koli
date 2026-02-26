@@ -64,7 +64,6 @@ Math.add(10,20)
 Math.product(10,20)
 Math.average(10,20)
 
-
 # 3 class method :-
 """
 Inside method implementation if we are using only class variables (static variables), then such type
@@ -100,11 +99,7 @@ t3=Test()
 t4=Test()  
 t5=Test()
 Test.noOfobjects()  
-
-
-
 # Garbage Collection:
-
 """
 In old languages like C++, programmer is responsible for both creation and destruction of
 objects.Usually programmer taking very much care while creating object, but neglecting
@@ -128,9 +123,6 @@ gc.disable()
 print(gc.isenabled())
 gc.enable()
 print(gc.isenabled()) # After re-enabling garbage collection, this prints True again.
-
-
-
 
 # class :- ese methods jisme hum class variable ko implmetions kare usind 
 # This checks if garbage collection is still enabled. Since it was disabled 
