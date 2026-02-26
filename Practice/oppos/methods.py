@@ -72,6 +72,8 @@ of methods we should declare as class method.
 We can declare class method explicitly by using @classmethod decorator.
 For class method we should provide cls variable at the time of declaration
 
+Class method wo method hota hai jo class ke variables par kaam karta hai (object par nahi) aur jisme cls parameter use hota hai.
+Isse @classmethod decorator se define kiya jata hai.
 """
 
 class Animal:
