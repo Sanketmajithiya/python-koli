@@ -39,7 +39,7 @@ Inside instance method declaration,we have to pass self variable.
 
 # 2 static methods :- methods which performs operations on external data
 """
-esa data jo kisi class se belong karta ho or naa kisi object se
+Static method wo method hota hai jo na kisi object (self) par depend karta hai aur na kisi class variable (cls) par. Yeh general purpose ka kaam karta hai aur @staticmethod decorator se define hota hai.
 """
 
 # - No need to pass object or class reference
