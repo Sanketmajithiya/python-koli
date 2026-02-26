@@ -2,7 +2,7 @@
 # For total class only one copy of static variable will be created and shared by all objects of that class.
 # We can access static variables either by class name or by object reference
 # But recommended class name (Ek copy bana create kar lo static variable and share kar lo all objects ko)
-
+# static variable:- Ye class ke andar define hota hai (methods ke bahar).Python me isko Class Attribute bhi kehte hain.
 class comapny:
     comany_name = "Wipro" # static variable 
 
