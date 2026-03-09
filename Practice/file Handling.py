@@ -16,8 +16,11 @@ r - read that file
 w - write operation Ager specified file is not already availble 
 then this mode create file new file
 
-a - append ke liye use karte hai if already contains some data than ye override karegi and 
-Ager nahi hai already so new file create karegi
+a - Append mode ka use file ke end me naya data add karne ke liye hota hai.
+# Agar file pehle se exist karti hai → to data last me add ho jata hai, purana data delete nahi hota.
+# Agar file exist nahi karti → to Python nayi file create kar deta hai.
+# Simple line me
+# Append mode (a) file ke end me data add karta hai bina purana data delete kiye.
 
 r+ - read and write data into the file 
 
